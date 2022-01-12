@@ -21,7 +21,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -29,23 +28,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/anjalig21/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/anjalig21/Sorting-Visualizer">
+    <img src="images/sort.gif" alt="Logo" width="300" height="200">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Sorting Visualizer</h3>
 
   <p align="center">
-    project_description
+    Automated the visualization of various sorting algorithm using pygame
     <br />
-    <a href="https://github.com/anjalig21/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/anjalig21/repo_name">View Demo</a>
+    <a href="https://github.com/anjalig21/Sorting-Visualizer/issues">Report Bug</a>
     ·
-    <a href="https://github.com/anjalig21/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/anjalig21/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/anjalig21/Sorting-Visualizer/issues">Request Feature</a>
   </p>
 </div>
 
@@ -68,12 +62,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,9 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+This project automates the visualization of sorting algorithms in python using pygame. Currently, this project showcases bubble sort and insertion sort in action, but more will be addded soon!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,14 +82,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python 3.9](https://www.python.org/downloads/)
+* [Pygame](https://www.pygame.org/download.shtml)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,57 +92,43 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Python 3.9 or above
+* Latest version of pip
+    ```sh
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.pycurl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    python3 get-pip.py
+    ```
+* Pygame
+    ```sh
+    pip install pygame
+    ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/anjalig21/repo_name.git
+   git clone https://github.com/anjalig21/Sorting-Visualizer.git
    ```
-3. Install NPM packages
+2. Make sure Pygame is installed
    ```sh
-   npm install
+   pip install pygame
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Run the program!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/anjalig21/repo_name/issues) for a full list of proposed features (and known issues).
+- Press the 'A' key for an ascending visualization of the sort
+- Press the 'D' key for a descending visualization of the sort
+- Press the 'B' key for bubble sort
+- Press the 'I' key for insertion sort
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -180,51 +150,34 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Anjali Gupta - anjaligta@outlook.com
 
-Project Link: [https://github.com/anjalig21/repo_name](https://github.com/anjalig21/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/anjalig21/Sorting-Visualizer](https://github.com/anjalig21/Sorting-Visualizer)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/anjalig21/Sorting-Visualizer.svg?style=for-the-badge
+[contributors-url]: https://github.com/anjalig21/Sorting-Visualizer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/anjalig21/Sorting-Visualizer.svg?style=for-the-badge
+[forks-url]: https://github.com/anjalig21/Sorting-Visualizer/network/members
+[stars-shield]: https://img.shields.io/github/stars/anjalig21/Sorting-Visualizer.svg?style=for-the-badge
+[stars-url]: https://github.com/anjalig21/Sorting-Visualizer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/anjalig21/Sorting-Visualizer.svg?style=for-the-badge
+[issues-url]: https://github.com/anjalig21/Sorting-Visualizer/issues
+[license-shield]: https://img.shields.io/github/license/anjalig21/Sorting-Visualizer.svg?style=for-the-badge
+[license-url]: https://github.com/anjalig21/Sorting-Visualizer/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/anjali-gupta21
 [product-screenshot]: images/screenshot.png
