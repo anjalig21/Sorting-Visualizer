@@ -88,7 +88,6 @@ This project automates the visualization of sorting algorithms in python using p
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
