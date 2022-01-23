@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project automates the visualization of sorting algorithms in python using pygame. Currently, this project showcases bubble sort and insertion sort in action, but more will be addded soon!
+This project automates the visualization of sorting algorithms in python using pygame. Currently, this project showcases bubble sort and insertion sort in action, but more will be added soon!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
